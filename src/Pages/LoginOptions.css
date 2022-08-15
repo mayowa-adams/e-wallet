@@ -1,0 +1,8 @@
+.view{
+    background-color: black;
+    flex: 1,
+}
+
+.view img{
+    height:20px;
+}
