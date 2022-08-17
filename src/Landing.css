@@ -1,0 +1,139 @@
+.joseph {
+position: absolute;
+width: 239px;
+height: 123px;
+left: 94px;
+top: 522px;
+
+font-family: 'Clash Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+/* or 125% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+
+/* Login Page */
+
+.intro {
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    left: 32px;
+    top: 48px;
+
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.right_bar {
+    position: absolute;
+    width: 103px;
+    height: 2px;
+    left: 32px;
+    top: 399px;
+
+    background: #EBEBEB;
+    border-radius: 8px;
+}
+
+.left_bar {
+    position: absolute;
+    width: 104px;
+    height: 2px;
+    left: 292px;
+    top: 399px;
+    
+    background: #EBEBEB;
+    border-radius: 8px;
+}
+
+.bar_text {
+    position: absolute;
+    width: 79px;
+    height: 16px;
+    left: 174px;
+    top: 392px;
+    
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+/* icon section */
+
+.first_box {
+    position: absolute;
+    width: 78.87px;
+    height: 56px;
+    left: 56px;
+    top: 440px;
+
+    background: #EBB2FF;
+    border-radius: 8px;
+}
+
+.second_box {
+    position: absolute;
+    width: 78.87px;
+    height: 56px;
+    left: 174.87px;
+    top: 440px;
+
+    background: #EBB2FF;
+    border-radius: 8px;
+}
+
+.last_box {
+    position: absolute;
+    width: 78.87px;
+    height: 56px;
+    left: 293.74px;
+    top: 440px;
+    
+    background: #EBB2FF;
+    border-radius: 8px;
+}
+
+.login_button {
+    position: absolute;
+    width: 364px;
+    height: 56px;
+    left: 32px;
+    top: 838px;
+
+    /* Primary color */
+
+    background: #EBB3FF;
+    border-radius: 8px;
+}
+
+.login_button div {
+position: absolute;
+width: 56px;
+height: 24px;
+left: calc(50% - 56px/2);
+top: calc(50% - 24px/2);
+
+font-family: 'Clash Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+color: #000000;
+}
