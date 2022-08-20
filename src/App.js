@@ -4,8 +4,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Landing from "./Pages/Landing"
-import Login from './Pages/Login';
+import Landing from "./Pages/studentSignUp"
+import Login from './Pages/vendorLogin';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       {/* <Route exact path="/" element={<LoginOptions/>}/> 
       <Route path='/site' element={<Send/>}/> */
       <Route exact path="/" element={<Login/>}/>}
-      
+      <Route exact path="/signUp" element={<Landing/>}/>
     </Routes>
     </BrowserRouter>
   );
